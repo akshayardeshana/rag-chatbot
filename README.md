@@ -49,3 +49,12 @@ Add your API key to the rag_engine.py file:
 ```
 GROQ_API_KEY=your_actual_groq_api_key_here
 ```
+
+---
+
+## Commands to run the rag-chatbot
+
+```
+uvicorn api:app --reload
+streamlit run app.py
+```

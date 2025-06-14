@@ -20,7 +20,7 @@ This project is a Retrieval-Augmented Generation (RAG) based chatbot that allows
 
 ---
 
-## 🗂Project Structure
+## Project Structure
 
 ```bash
 .
@@ -30,3 +30,22 @@ This project is a Retrieval-Augmented Generation (RAG) based chatbot that allows
 ├── db.py                 # Complaint database handler (SQLite)
 ├── sample_kb.txt         # Knowledge base for retrieval
 ├── requirements.txt      # All dependencies
+
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+---
+
+## Setting Your Groq API Key
+
+To authenticate with **Groq**, you need to provide your API key securely.
+Add your API key to the rag_engine.py file:
+
+```
+GROQ_API_KEY=your_actual_groq_api_key_here
+```
